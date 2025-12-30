@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">98811_LAB_WEEK10</string>
+    <string name="text_total">Total: %d</string>
+    <string name="button_increment">Press Me</string>
+
+</resources>

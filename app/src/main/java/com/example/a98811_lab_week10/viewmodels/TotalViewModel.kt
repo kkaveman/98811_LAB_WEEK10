@@ -1,0 +1,15 @@
+package com.example.a98811_lab_week10.viewmodels
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class TotalViewModel : ViewModel() {
+
+    private val _total = MutableLiveData(0)
+    val total: LiveData<Int> = _total
+
+    fun incrementTotal() {
+        _total.value = (_total.value ?: 0) + 1
+    }
+}
