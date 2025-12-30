@@ -1,0 +1,11 @@
+package com.example.a98811_lab_week10.database
+
+import androidx.room.Database
+import androidx.room.RoomDatabase
+
+@Database(entities = [Total::class], version = 1)
+abstract class TotalDatabase : RoomDatabase() {
+    // Declare the Dao
+    abstract fun totalDao(): TotalDao
+// You can declare another Dao here for other Entities
+}
