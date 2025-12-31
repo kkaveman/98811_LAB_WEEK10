@@ -24,8 +24,6 @@ class MainActivity : AppCompatActivity() {
         ViewModelProvider(this)[TotalViewModel::class.java]
     }
 
-    // ❌ Remove this - don't need it anymore
-    // private var total: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
